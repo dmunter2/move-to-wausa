@@ -28,7 +28,7 @@ function Business() {
     return (
         <Main>
         <DIV>
-            <Link className='business' to='/business'>Business</Link>
+            <Link className='business' to='/business'>Businesses in Wausa</Link>
 
 
 
