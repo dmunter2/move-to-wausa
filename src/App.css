@@ -60,7 +60,8 @@ color: #4a154b;
   border-radius: 3px;
 }
 .tabs:hover{
-scale: 1.02;
+/* scale: 1.02; */
+background-color: blanchedalmond;
 }
 
 .tabs1{
@@ -80,7 +81,7 @@ margin-bottom: 6%;
 }
 .tabs2{
 height: 100px;
-font-size: 2rem;
+font-size: 1.8rem;
 font-weight: 600;
 display: flex;
 justify-content: center;

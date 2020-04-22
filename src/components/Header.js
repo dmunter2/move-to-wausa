@@ -48,7 +48,7 @@ function Header() {
                 <H1>Wausa</H1>
             </div>
             <DIV1>
-                <BTN className='btn'>Move to Wausa</BTN>
+                <BTN className='btn'>Get Involved</BTN>
 
             </DIV1>
         </DIV>
