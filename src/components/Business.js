@@ -15,7 +15,7 @@ justify-content: center;
   border: 1px solid black;
   padding: 1%;
   margin: 1%;
-  width: 475px;
+  width: 410px;
   height: 50px;
   border-radius: 5px;
 
