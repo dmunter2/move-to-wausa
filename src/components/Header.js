@@ -12,6 +12,7 @@ border-bottom: 1px solid #F0F0F0;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+background-color: white;
 
 `
 const DIV1 = style.div`
@@ -20,9 +21,20 @@ justify-content: center;
 align-items: center;
 margin-right: 20px;
 `
+
+const DIV2 = style.div`
+@media(max-width: 800px) {
+    display: none;
+}
+`
+
+
 const H1 = style.h1`
 width: 30%;
 margin-left: 20px;
+color: #25282a;
+font-family: 'Lato', sans-serif;
+font-size: 1.8rem;
 `
 
 const BTN = style.button`
@@ -32,9 +44,6 @@ border: none;
 border-radius: 5px;
 color: white;
 font-size: 1rem;
-
-
-
 `
 
 
@@ -51,6 +60,13 @@ function Header() {
                 <BTN className='btn'>Get Involved</BTN>
 
             </DIV1>
+
+            <DIV2>
+                <BTN className='btn'>News</BTN>
+                <BTN className='btn'>Job Openings</BTN>
+            </DIV2>
+
+
         </DIV>
 
 

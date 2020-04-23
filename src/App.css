@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f9f6ef;
 }
 
 .App-logo {
@@ -58,6 +59,7 @@ color: #4a154b;
   color: black;
   font-size: 20px;
   border-radius: 3px;
+  width: 90%;
 }
 .tabs:hover{
 /* scale: 1.02; */
@@ -65,7 +67,7 @@ background-color: blanchedalmond;
 }
 
 .tabs1{
-height: 100px;
+height: 60px;
 font-size: 2rem;
 font-weight: 600;
 display: flex;
@@ -76,28 +78,36 @@ background-color: #4a154b;
 color: white;
 border-radius: 5px;
 text-decoration: none;
-
+width: 95%;
 margin-bottom: 6%;
 }
 .tabs2{
-height: 100px;
-font-size: 1.8rem;
+height: 60px;
+font-size: 1.6rem;
 font-weight: 600;
 display: flex;
+width: 95%;
+border: 1px solid #4a154b;
+
 justify-content: center;
 align-items: center;
-border: 1px solid #4a154b;
 text-decoration: none;
 color: #4a154b;
 border-radius: 5px;
 }
 .tabs1:hover{
-opacity: 80%;
+background-color: #1f2020
 }
 .tabs2:hover{
-border: 2px solid #4a154b;
+background-color: #1f2020;
+border: 1px solid #1f2020;
+color: white;
 }
 
 .btn:hover{
   scale: 1.1;
+}
+
+.div4{
+  background-image: url('./components/lunch.jpg')
 }
