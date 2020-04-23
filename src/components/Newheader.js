@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import style from 'styled-components';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 // const IMG = styled.img``
@@ -24,9 +24,14 @@ margin-right: 20px;
 `
 
 const DIV2 = style.div`
-@media(max-width: 800px) {
-    display: none;
-}
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+width: 250px;
+justify-content: space-around;
+
 `
 
 
@@ -42,21 +47,18 @@ font-size: 1.8rem;
 
 
 
-function Header() {
-    return(
+function Newheader() {
+    return (
         <DIV>
             <div>
                 {/* <IMG src={image} /> */}
                 <H1>Wausa</H1>
             </div>
-            <DIV1>
-                <Link className='btn3' to='/involved'>Get Involved</Link>
-
-            </DIV1>
+       
 
             <DIV2>
                 <Link className='btn'>News</Link>
-                <Link className='btn'>Job Openings</Link>
+                <Link className='btn2'>Job Openings</Link>
             </DIV2>
 
 
@@ -68,4 +70,4 @@ function Header() {
 
 
 
-export default Header;
+export default Newheader;
