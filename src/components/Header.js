@@ -21,9 +21,20 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-right: 20px;
+@media(min-width: 800px) {
+    display: none;
+}
+
+
+
 `
 
 const DIV2 = style.div`
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 300px;
 @media(max-width: 800px) {
     display: none;
 }
@@ -56,7 +67,7 @@ function Header() {
 
             <DIV2>
                 <Link className='btn'>News</Link>
-                <Link className='btn'>Job Openings</Link>
+                <Link className='btn2' to='/openings' >Job Openings</Link>
             </DIV2>
 
 

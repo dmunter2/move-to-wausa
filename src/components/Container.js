@@ -90,10 +90,11 @@ margin-bottom: 40px;
 `
 const DIV3 = style.div`
 display: flex;
-flex-direction: column;
+flex-direction: row;
 align-items: center;
 border-radius: 5px 5px 0 0;
 height: 250px;
+justify-content: space-around;
 
 `
 const DIV4 = style.div`
@@ -121,13 +122,23 @@ margin-bottom: 50px;
 height: 320px;
 max-width: 500px;
 margin-top: 15px;
+background-color: white;
+border-radius: 5px;
 `
 
 
-const Img = style.img`
-height: 280px;
-width: 350px;
+const H7 = style.h2`
+margin: 0;
+text-align: left;
+margin-left: 10px;
+color: white;
+font-size: 1.2rem;
+font-family: 'Manrope', sans-serif;
 `
+const Hold1 = style.div`
+width: 55%;
+`
+
 const DIV5 = style.div`
 width: 100%;
 `
@@ -135,10 +146,10 @@ const H5 = style.h2`
 margin: 0;
 text-align: left;
 color: #1f2020;
-font-size: 1.8rem;
+font-size: 1.2rem;
 fontweight: 800;
-margin-left: 20px;
-margin-top: 10px;
+margin-left: 10px;
+margin-top: 20px;
 height: 100px;
 `
 function Container(){
@@ -191,13 +202,33 @@ function Container(){
                 
                 <DIV3 className='build'>
 
-                    <H5>Businesses Keeping Wausa Looking New</H5>
-                    <Link className='tabs5' to='/specials'>Thank you!</Link>
+
+                    <Hold1>
+                        <H7>We are proud of our Electricians, Plumbers, and Carpenters that have been taking care of the town for years.</H7>
+                    </Hold1>
+
+
+
+
+                    <Hold>
+                        <Link className='tabs5' to='/specials'>McQuay Construction</Link>
+                        <Link className='tabs5' to='/specials'>Burns Construction</Link>
+                        <Link className='tabs5' to='/specials'>Bloomquist Plumbing</Link>
+                    </Hold>
+
+
+                   
+
+                     
 
 
                 </DIV3>
+                <H5>Need something Fixed, Built, or Repaired?</H5>
 
-            </Contain2>
+
+            </Contain2> 
+            
+        
 
 
 
