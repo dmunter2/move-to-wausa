@@ -58,7 +58,7 @@ function Newheader() {
 
             <DIV2>
                 <Link className='btn'>News</Link>
-                <Link className='btn2'>Job Openings</Link>
+                <Link className='btn2' to='/openings'>Job Openings</Link>
             </DIV2>
 
 

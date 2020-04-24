@@ -122,6 +122,8 @@ margin-bottom: 50px;
 height: 320px;
 max-width: 500px;
 margin-top: 15px;
+background-color: white;
+border-radius: 5px;
 `
 
 
@@ -146,7 +148,7 @@ text-align: left;
 color: #1f2020;
 font-size: 1.2rem;
 fontweight: 800;
-margin-left: 20px;
+margin-left: 10px;
 margin-top: 20px;
 height: 100px;
 `
@@ -221,7 +223,7 @@ function Container(){
 
 
                 </DIV3>
-                <H5>Need something Fixed,Built, or Repaired?</H5>
+                <H5>Need something Fixed, Built, or Repaired?</H5>
 
 
             </Contain2> 

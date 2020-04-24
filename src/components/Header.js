@@ -21,10 +21,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-right: 20px;
-
 @media(min-width: 800px) {
     display: none;
 }
+
 
 
 `
@@ -67,7 +67,7 @@ function Header() {
 
             <DIV2>
                 <Link className='btn'>News</Link>
-                <Link className='btn2'>Job Openings</Link>
+                <Link className='btn2' to='/openings' >Job Openings</Link>
             </DIV2>
 
 
