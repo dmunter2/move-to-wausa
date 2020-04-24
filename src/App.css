@@ -115,7 +115,7 @@ text-decoration: none;
 padding: 1%;
 display: flex;
 justify-content: center;
-width: 90px;
+width: 100px;
 text-align: center;
 align-items: center;
 border: 2px solid #4a154b;
@@ -132,7 +132,7 @@ text-decoration: none;
 padding: 1%;
 display: flex;
 justify-content: center;
-width: 90px;
+width: 100px;
 text-align: center;
 align-items: center;
 }
@@ -195,7 +195,6 @@ color: white;
 
 
 .tabs5{
- margin-top: 30px;
     padding: 2%;
     height: 40px;
     display: flex;
@@ -207,9 +206,11 @@ color: white;
   background-color: white;
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 3px;
-  width: 70%;
+  width: 100%;
+  
+  margin: 2%;
 }
 
 .tabs5:hover{
